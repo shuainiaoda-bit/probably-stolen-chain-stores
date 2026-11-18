@@ -1,55 +1,38 @@
 # 深空当铺：连锁店 / Chain Stores
 
-让你的足迹遍布整个下层区！
+《深空当铺：可能是偷的》的直营连锁经营 Mod，作者：是大帅鸟。
 
-《深空当铺：可能是偷的》（Probably Stolen）的连锁经营 Mod。买下原店后，考察新店面、招聘员工、安排库存和经营策略，让交易员负责直营店的日常买卖。
+当前版本：**0.1.4 开发预览版**。需要游戏 **1.0.0.15** 及其官方 ModReflect、Mod 服务接口。
 
-作者：大帅鸟。当前版本：**0.1.3 开发预览版**。
+## 下载与安装
 
-## 下载
+从 [Releases](https://github.com/shuainiaoda-bit/probably-stolen-chain-stores/releases) 下载 `ChainStores-0.1.4.zip`。先备份存档，退出游戏，再将压缩包内的 `ChainStores` 文件夹放入游戏目录的 `Mods` 文件夹。在游戏原生 Mod 菜单启用。同一 Mod 只启用一个来源；从工坊版切换时先停用工坊版。
 
-前往 [Releases](https://github.com/shuainiaoda-bit/probably-stolen-chain-stores/releases)，在 Assets 中下载 **ChainStores-0.1.3.zip**。
+买下原店后，点击主界面上方“连锁经营”，考察并租赁或买下店面。每家新店首次转入至少 10000 信用点，招聘一名交易员后开业。进入门店搬货、装修和设置买卖类别，睡前管理后点击“下一天”结算。
 
-每个版本附有 SHA256SUMS.txt，可用于核对安装包完整性。
+每家分店分别保存资金、库存、员工和势力声望。支持原版普通顾客、6 种原创买卖顾客、装修升级及独立展览柜。界面和经营说明支持游戏全部 11 种语言。
 
-## 安装
+## 0.1.4 更新
 
-1. 退出游戏，并备份存档。
-2. 在 Steam 库中右键《深空当铺》，选择“管理”→“浏览本地文件”。
-3. 解压安装包，将整个 **ChainStores** 文件夹放入游戏目录的 **Mods** 文件夹。
-4. 检查目录层级应为 `Probably Stolen/Mods/ChainStores/Manifest.xml`。
-5. 启动游戏，在 Mod 菜单启用“深空当铺：连锁店”，确认版本为 **0.1.3**。权限提示由游戏原生 Mod 菜单确认。
+- 动态游戏成员访问改用官方 ModReflect，正式包声明和扫描得到的额外能力均为空。
+- 原版四种持续排列保留；第三方排列通过官方可选服务或原有协程接口提供完成通知。
+- 旧存档的排列选择保留。未接入完成接口的排序 Mod 暂时使用原版入库；它们在原版容器菜单中的手动功能仍由对应 Mod 提供。更好的库存排序旧版需要作者接入完成接口后才能自动持续排列。
+- 物品副本完成校验后只应用位置，保留数量、状态、内容物、固定物品和购入成本。
 
-更新旧的本地版本时，退出游戏后覆盖 `Mods/ChainStores` 中的三个 Mod 文件即可。工坊版与本地版使用相同的 Mod ID `chain_stores`，同一 Mod 只启用一个来源。
+校验文件 `SHA256SUMS.txt` 与安装包一同发布。问题反馈：QQ群 **1129395905**，或在原 Steam 工坊评论区留言。
 
-## 基本玩法
-
-- **选址开店**：探索 6 层、125 个区域，考察店面，租赁或买断。
-- **招聘员工**：每店聘请一名交易员经营，可选雇保安降低治安风险。
-- **库存和策略**：从原店免费搬货，按类别设置买入、卖出和价格策略。
-- **装修升级**：实地进入分店，升级招牌、室内环境、安防、仓库和展览柜。
-- **独立经营**：各店拥有独立资金、库存和势力声望，接待原版普通顾客及 6 种原创买卖顾客。
-- **持续排布**：选择原版排列方式，或玩家已启用的排序 Mod 提供的容器排列方式。
-
-买下原店后，点击主店中间上方的 **“连锁经营”**。签约店面，首次转入至少 **10000 信用点**，再招聘一名交易员即可开业。睡前完成管理，点击 **“下一天”** 后结算分店交易。
-
-原店储藏区会收到可点击阅读的《连锁经营说明》。如果储藏区已满，腾出空间后再领取。
-
-## 兼容与后续计划
-
-- 游戏版本：**0.46D、1.0.0.14、1.0.0.15**，含 open_beta Build 26711633 的兼容验证。
-- 界面跟随游戏语言，支持中文、英语、法语、德语、意大利语、日语、韩语、波兰语、巴西葡萄牙语、俄语和西班牙语。
-- 连锁店可以独立运行，第三方排序 Mod 按需启用。`reflection-external` 权限用于读取已启用排序 Mod 的菜单和运行状态。
-- 公司、商标、品牌加盟店、员工培训和特质培养列入后续开发计划。
-
-本版仍在开发。反馈问题时，请附上游戏版本、Mod 版本、启用的其他 Mod 和报错截图，并隐去截图中的个人信息。可以在本仓库的 Issues 中留言。
+[原 Steam 工坊页面](https://steamcommunity.com/sharedfiles/filedetails/?id=3840545624)
 
 ## English
 
-Chain Stores expands Probably Stolen with directly operated branches. Choose locations, hire traders and guards, move stock from your original shop, set category and pricing policies, and improve each branch. Branches keep separate cash, stock and faction reputations.
+Chain Stores adds directly operated branches to Probably Stolen. Version **0.1.4** requires game **1.0.0.15** with the official ModReflect and optional-mod service APIs.
 
-Download **ChainStores-0.1.3.zip** from this repository's [Releases](https://github.com/shuainiaoda-bit/probably-stolen-chain-stores/releases). Exit the game, back up your save, and copy the **ChainStores** folder into the game's **Mods** directory. Enable the mod through the game's native Mod menu. Use one installation source for this mod ID.
+Download `ChainStores-0.1.4.zip` from Releases. Back up your save, exit the game, and copy the included `ChainStores` folder into the game's `Mods` directory. Enable it in the native Mod menu. Enable only one source of the mod at a time.
 
-Buy your original shop to unlock Chain Management. Each new branch needs an initial transfer of at least **10000 credits** and **one trader**. Finish management before sleeping; branch trades settle when you select Next Day.
+After buying your original shop, open Chain Management, inspect premises, rent or buy a branch, transfer at least 10000 credits and hire a trader. Visit branches to move stock, decorate and set trading policies. Complete management before advancing to the next day.
 
-Supports game versions **0.46D / 1.0.0.14 / 1.0.0.15** and all **11 game languages**. Sorting mods are optional. This is a development preview; report issues with game and mod versions, other enabled mods and a screenshot with personal information removed.
+Branches have independent cash, stock, staff and faction reputations. Includes ordinary native customers, six original customers, upgrades and showcases. Supports all 11 game languages.
+
+This release replaces dynamic reflection with the official API; the production manifest and native scanner report no extra capabilities. Four vanilla arrangements remain available. Optional sorting providers must supply a completion routine through the official service or the existing registration API. Unadapted sorting mods, including older Better Inventory Sorting versions, use vanilla intake until their authors add the adapter. Saved preferences are retained. Manual sorting in the native container menu remains provided by each sorting mod.
+
+This is a development preview. Brand franchises are planned for a later release. Report bugs in the Workshop comments or QQ group **1129395905**.
