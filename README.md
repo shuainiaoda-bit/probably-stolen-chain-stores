@@ -2,7 +2,15 @@
 
 《深空当铺：可能是偷的》的直营连锁经营 Mod，作者：是大帅鸟。
 
-当前版本：**0.1.7 开发预览版**。支持默认公开版 **Build26525552** 和 open_beta **Build26772488 / 1.0.0.16**，使用官方 ModReflect 和可选 Mod 服务接口。
+当前版本：**0.1.8 开发预览版**。支持默认公开版 **Build26525552** 和 open_beta **Build26772488 / 1.0.0.16**，使用官方 ModReflect 和可选 Mod 服务接口。
+
+## 0.1.8 字号与门店管理
+
+- 在“连锁经营 → 设置”选择70%至130%的字号，文字与控件同步调整，重启后保留。
+- “管理门店 → 修改店名”支持1至24个字符，原地址继续显示。目录列出每家店的招牌、室内装修和安防等级。
+- 原版声望面板的势力列超宽时，底部显示横向滚动条，可拖动或用滚轮查看；已有滚动面板继续由原提供者管理。
+
+English: Choose a persistent 70%–130% text scale in Chain Management → Settings. Rename branches from their management window while retaining each address. The directory shows sign, interior and security levels. A bottom scrollbar makes overflowing native reputation columns accessible by dragging or scrolling; existing scroll panels retain their own controls.
 
 ## 0.1.7 仓库优先售卖
 
@@ -18,7 +26,7 @@ English: The same package supports public Build26525552 and open_beta Build26772
 
 ## 下载与安装
 
-从 [Releases](https://github.com/shuainiaoda-bit/probably-stolen-chain-stores/releases) 下载 `ChainStores-0.1.7.zip`。先备份存档并退出游戏，再将包内的 `ChainStores` 文件夹放入游戏目录的 `Mods` 文件夹，在游戏原生 Mod 菜单启用。同一 Mod 只启用一个来源；从工坊版切换时先停用工坊版。更新时替换原安装文件，保留游戏存档。
+从 [Releases](https://github.com/shuainiaoda-bit/probably-stolen-chain-stores/releases) 下载 `ChainStores-0.1.8.zip`。先备份存档并退出游戏，再将包内的 `ChainStores` 文件夹放入游戏目录的 `Mods` 文件夹，在游戏原生 Mod 菜单启用。同一 Mod 只启用一个来源；从工坊版切换时先停用工坊版。更新时替换原安装文件，保留游戏存档。
 
 买下原店后，点击主界面上方“连锁经营”，考察并租赁或买下店面。新店首次转入至少 10000 信用点，招聘一名交易员后开业。进入门店搬货、装修和设置买卖类别，睡前管理后点击“下一天”结算。
 
@@ -44,7 +52,7 @@ English: The same package supports public Build26525552 and open_beta Build26772
 
 Chain Stores adds directly operated branches to Probably Stolen. Version **0.1.5** supports game **1.0.0.15 and 1.0.0.16** with the official ModReflect and optional-mod service APIs.
 
-Download `ChainStores-0.1.7.zip` from Releases. Back up your save, exit the game and copy the included `ChainStores` folder into the game's `Mods` directory. Enable it in the native Mod menu. Use one installation source at a time. Replace the installed files when updating and retain your game saves.
+Download `ChainStores-0.1.8.zip` from Releases. Back up your save, exit the game and copy the included `ChainStores` folder into the game's `Mods` directory. Enable it in the native Mod menu. Use one installation source at a time. Replace the installed files when updating and retain your game saves.
 
 After buying the original shop, open Chain Management, inspect premises, rent or buy a branch, transfer at least 10000 credits and hire a trader. Visit branches to move stock, decorate and set trading policies. Complete management before advancing to the next day. Branches have independent cash, inventory, staff and faction reputations. Includes ordinary native customers, six original customers, upgrades and showcases. Supports all 11 game languages.
 
